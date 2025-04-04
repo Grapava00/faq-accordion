@@ -1,0 +1,23 @@
+section p {
+  display: none;
+}
+
+section.active p {
+  display: block;
+}
+
+article section h2:hover {
+  cursor: pointer;
+}
+
+article section h2 img[alt="icon-minus"] {
+  display: none;
+}
+
+article section.active h2 img[alt="icon-plus"] {
+  display: none;
+}
+
+article section.active h2 img[alt="icon-minus"] {
+  display: inline;
+}
