@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   accordionHeaders.forEach((header) => {
     header.addEventListener("click", () => {
       const currentSection = header.parentElement;
+      currentSection.classList.toggle("active");
     });
   });
 });
