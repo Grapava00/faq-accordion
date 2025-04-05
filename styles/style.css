@@ -32,6 +32,12 @@ article {
   padding: 40px;
 }
 
+h1 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 section p {
   display: none;
 }
