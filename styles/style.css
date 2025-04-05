@@ -54,6 +54,11 @@ h2 {
   font-size: 18px;
 }
 
+h2:hover {
+  cursor: pointer;
+  color: #C500F0;
+}
+
 hr{
   width: 100%;
   border: 1px solid var(--purple-100);
@@ -85,4 +90,15 @@ article section.active h2 img[alt="icon-plus"] {
 
 article section.active h2 img[alt="icon-minus"] {
   display: inline;
+}
+
+
+summary {
+  /* Hide the default triangle marker */
+  list-style: none; /* For Firefox */
+}
+
+/* Hide the default triangle marker in WebKit browsers (Chrome, Safari) */
+summary::-webkit-details-marker {
+  display: none;
 }
