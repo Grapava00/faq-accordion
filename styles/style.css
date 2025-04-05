@@ -92,13 +92,3 @@ article section.active h2 img[alt="icon-minus"] {
   display: inline;
 }
 
-
-summary {
-  /* Hide the default triangle marker */
-  list-style: none; /* For Firefox */
-}
-
-/* Hide the default triangle marker in WebKit browsers (Chrome, Safari) */
-summary::-webkit-details-marker {
-  display: none;
-}
