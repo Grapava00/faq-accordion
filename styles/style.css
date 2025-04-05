@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: hsl(275, 100%, 97%);
 }
 
 img[alt="background-pattern-desktop"] {
@@ -18,7 +19,7 @@ img[alt="background-pattern-desktop"] {
 
 article {
   max-width: 600px;
-  width: 90%;
+  width: 80%;
   background-color: white;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
