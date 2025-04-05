@@ -13,17 +13,13 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--purple-100);
+  background-image: url('../assets/images/background-pattern-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
   font-family: "Work Sans", sans-serif;
   font-style: normal;
-
-}
-
-img[alt="background-pattern-desktop"] {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  font-weight: 400;
 }
 
 article {
@@ -43,6 +39,7 @@ h1 {
   gap: 24px;
   color: var(--purple-950);
   font-weight: 700;
+  font-size: 40px;
 }
 
 h2 {
@@ -90,5 +87,29 @@ article section.active h2 img[alt="icon-plus"] {
 
 article section.active h2 img[alt="icon-minus"] {
   display: inline;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url('../assets/images/background-pattern-mobile.svg');
+  }
+
+  article {
+    width: 75%;
+    padding: 24px;
+  }
+
+  h1 {
+    font-size: 32px;
+    gap: 16px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  section p {
+    font-size: 14px;
+  }
 }
 
